@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `CHJ Webblösningar`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@gatsbyjs`,
   },
@@ -12,7 +12,25 @@ module.exports = {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
-    },
+	},
+	/* {
+		resolve: "gatsby-source-strapi",
+		options: {
+			apiURL: "http://localhost:1337",
+			contentTypes: [
+				"post",
+				"user"
+			],
+			queryLimit: 1000
+		}
+	}, */
+	{
+		resolve: "gatsby-source-ghost",
+		options: {
+			apiUrl: "http://127.0.0.1:2368",
+			contentApiKey: "d78fca0ff91b898bb6935a9496"
+		}
+	},
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {

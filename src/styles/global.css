@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700|Roboto:100,200,300,400,500,600,700|Rubik&display=swap');
+:root{
+	--accent: #C73C3C;
+	--secondary: #2B2839;
+	--primary: #f7f7f2;
+	--textLight: #56535e;
+	--orange: #e99029;
+}
+*{
+	font-family: "Roboto", Arial, sans-serif;
+}
+body, html{
+	margin: 0;
+	padding: 0;
+	color: var(--textLight);
+	background-color: var(--primary);
+
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+	min-height: 100vh;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+h1{
+	color: var(--accent);
+	font-size: 2.5rem;
+	font-family: "Raleway", "Roboto", sans-serif;
+}
+h2{
+	color: var(--secondary);
+	font-size: 2rem;
+	font-family: "Raleway", "Roboto", sans-serif;
+}
+h1, h2, h3, h4{
+	margin: 0;
+}
+p{
+	margin: 8px 0 15px;
+}
+a{
+	color: #333;
+
+	position: relative;
+}

@@ -1,0 +1,49 @@
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 1rem calc(960px * .3);
+}
+header .logo{
+	max-height: 40px;
+}
+header nav a{
+	display: inline-flex;
+	justify-content: center;
+	margin: 0 30px;
+	font-size: 1.2rem;
+
+	text-decoration: none;
+	outline: none;
+}
+header nav a:last-child{
+	margin-right: 0;
+}
+header nav a:hover:before,
+header nav a:active:before,
+header nav a:focus:before{
+	content: "";
+	position: absolute;
+	opacity: 0;
+	width: 0;
+	height: 2px;
+	background: var(--accent);
+	margin: 1.5rem auto 0 auto;
+	animation: wider 150ms ease forwards;
+}
+
+@keyframes wider{
+	0%{
+		opacity: 0;
+		width: 0;
+	}
+	50%{
+		opacity: 1;
+		width: 50%;
+	}
+	100%{
+		opacity: 1;
+		width: 100%;
+	}
+}
