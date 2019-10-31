@@ -8,8 +8,10 @@ import "./styles/header.css";
 
 const Header = ({ siteTitle }) => (
   <header>
-	  <Logo />
-	  <Navigation />
+	  <div className="wrapper">
+		<Logo />
+		<Navigation />
+	  </div>
   </header>
 )
 

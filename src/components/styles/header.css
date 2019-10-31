@@ -1,9 +1,9 @@
-header{
+header .wrapper{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 
-	padding: 1rem calc(960px * .3);
+	padding: 1rem 0;
 }
 header .logo{
 	max-height: 40px;
