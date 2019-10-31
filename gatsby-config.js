@@ -27,8 +27,8 @@ module.exports = {
 	{
 		resolve: "gatsby-source-ghost",
 		options: {
-			apiUrl: "http://127.0.0.1:2368",
-			contentApiKey: "d78fca0ff91b898bb6935a9496"
+			apiUrl: "http://db.chjweb.se",
+			contentApiKey: "429efb8759a4d0664d4bdc10fd"
 		}
 	},
     `gatsby-transformer-sharp`,
