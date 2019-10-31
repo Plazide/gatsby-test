@@ -4,7 +4,7 @@
 		"contentApiKey": "d78fca0ff91b898bb6935a9496"
 	},
 	"production": {
-		"apiUrl": "https://127.0.0.1:2368",
-		"contentApiKey": "d78fca0ff91b898bb6935a9496"
+		"apiUrl": "https://db.chjweb.se",
+		"contentApiKey": "429efb8759a4d0664d4bdc10fd"
 	}
 }
