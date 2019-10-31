@@ -5,6 +5,7 @@
 	--primary: #f7f7f2;
 	--textLight: #56535e;
 	--orange: #e99029;
+	--contentWidth: 960px;
 }
 *{
 	font-family: "Roboto", Arial, sans-serif;
