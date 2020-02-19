@@ -21,3 +21,25 @@ fields:
       path: 
   label: Author
   description: The author of the blog post
+- name: publish_date
+  type: datetime
+  label: Publish date
+  description: The date of publish for the blog post
+  config:
+    required: true
+    date_format: " D MMM, YYYY"
+    time_format: 
+    display_utc: false
+    export_format: YYYY:MM:DD
+  default: '2020-02-19T15:53:37Z'
+- name: modified_date
+  type: datetime
+  label: Modified date
+  config:
+    required: false
+    date_format: D MMM, YYYY
+    time_format: 
+    display_utc: false
+    export_format: YYYY:DD:MM
+  description: The date of the latest modification
+  default: now
