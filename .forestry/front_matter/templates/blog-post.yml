@@ -29,7 +29,7 @@ fields:
     required: true
     date_format: " D MMM, YYYY"
     time_format: 
-    display_utc: false
+    display_utc: true
     export_format: YYYY:MM:DD
   default: '2020-02-19T15:53:37Z'
 - name: modified_date
@@ -39,7 +39,7 @@ fields:
     required: false
     date_format: D MMM, YYYY
     time_format: 
-    display_utc: false
+    display_utc: true
     export_format: YYYY:DD:MM
   description: The date of the latest modification
   default: now
