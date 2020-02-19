@@ -8,13 +8,16 @@ fields:
     required: false
   label: Title
   description: The title of the blog post
-- name: content
-  type: textarea
-  default: ''
+- name: author
+  type: select
+  default: content/authors/carl_hallen_jansson.md
   config:
     required: true
-    wysiwyg: true
-    schema:
-      format: markdown
-  label: content
-  description: The content of the blog post
+    options: []
+    source:
+      type: pages
+      section: author
+      file: content/authors/carl_hallen_jansson.md
+      path: 
+  label: Author
+  description: The author of the blog post
