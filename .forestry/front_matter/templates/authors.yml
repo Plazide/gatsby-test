@@ -14,3 +14,13 @@ fields:
     maxSize: '10'
   label: Profile image
   description: The profile image of the author
+- name: bio
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Bio
+  description: A short biography of the author
