@@ -25,3 +25,5 @@ fields:
       format: markdown
   label: Bio
   description: A short biography of the author
+pages:
+- content/authors/carl_hallen_jansson.md
