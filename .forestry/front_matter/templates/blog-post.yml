@@ -43,3 +43,5 @@ fields:
     export_format: ''
   description: The date of the latest modification
   default: '2020-02-19T16:02:59Z'
+pages:
+- content/blog/test-of-forestry.md
