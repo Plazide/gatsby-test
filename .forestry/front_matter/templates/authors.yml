@@ -1,4 +1,16 @@
 ---
 label: Authors
 hide_body: true
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: true
+  label: Name
+  description: Name of the author
+- name: profile_image
+  type: file
+  config:
+    maxSize: '10'
+  label: Profile image
+  description: The profile image of the author
